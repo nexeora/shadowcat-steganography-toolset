@@ -1,0 +1,14 @@
+[package]
+name = "shadowcat-arithmetic-coder"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+[lib]
+crate-type = ["staticlib"]
+
+[profile.dev]
+panic = "unwind"
+[profile.release]
+panic = "abort"
