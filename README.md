@@ -1,0 +1,2 @@
+# shadowcat-steganography-toolset
+一个跨平台的隐写工具集，目前仅包括一个设计用于概率整型的算术编码器实现
